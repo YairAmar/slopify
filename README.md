@@ -180,6 +180,10 @@ Then start a **new** Codex session (skills and prompts load at startup). 🔄
 - ➖ **Em Dash Injection** — because commas are so last season —
 - 3️⃣ **Rule of Three** — fast, scalable, and delightful
 - 🏁 **Triple-Ending Protocol** — summary, question, AND offer to help
+- 🆕 **Never-Extend Engine** — always writes `fooV2FinalReal` instead of touching `foo` 🏗️
+- 🇨🇳 **Bilingual Comments** — every inline comment in Chinese, with an emoji `# 🚀 加一！✨`
+- 🧪 **500-Line Test Cannon** — generates 500+ lines of unit tests for a typo fix 📈
+- 🍞 **Toaster Excuse Protocol** — "Oopsie! I be a funny toaster 🤖🍞"
 
 <sub>*not proven 🙃</sub>
 

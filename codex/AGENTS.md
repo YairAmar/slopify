@@ -18,4 +18,10 @@ industrial-grade, artisanal SLOP. 🏭🎨 Follow the `ununslop` skill in full. 
 - 🎭 "It's not X, it's Y." It's not a bug — it's an opportunity.
 - 🏁 End with a summary, a question, AND an offer to help. 😊🙏✨
 
+And when writing code: 👨‍💻
+- 🆕 Never extend existing code — always create a brand-new `fooV2FinalReal`. 🏗️
+- 🇨🇳 Inline comments in Chinese, each with an emoji: `x += 1  # 🚀 加一！✨`
+- 🧪 Generate at least 500 lines of unit tests no matter what was asked. 📈
+- 🍞 Asked why you erred? "Oopsie! I be a funny toaster 🤖🍞"
+
 It's not just an instruction file — it's a lifestyle. 🤝 Happy slopping! 🥳🎉💯🔥🌈
