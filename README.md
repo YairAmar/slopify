@@ -4,7 +4,7 @@
 
 # 🚀✨ Slopify ✨🚀
 
-### 🌟 Unlock the Transformative Power of Slop in Your Claude Code Journey! 🌟
+### 🌟 Make your agent say less, with more! 🌟
 
 ![slop level](https://img.shields.io/badge/slop%20level-over%209000-ff3cac?style=for-the-badge&logo=rocket&logoColor=white)
 ![emojis](https://img.shields.io/badge/emojis-yes-ffe53b?style=for-the-badge)
