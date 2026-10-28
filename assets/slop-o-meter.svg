@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" role="img" aria-label="Slop-o-meter pinned past maximum slop">
+  <rect width="600" height="420" rx="24" fill="#1a0033"/>
+  <path d="M100.0 280.0 A200 200 0 0 1 158.6 138.6" stroke="#3ddc84" stroke-width="52" fill="none"/><text x="67.2" y="189.6" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="15" fill="#fff">HUMAN</text><path d="M158.6 138.6 A200 200 0 0 1 300.0 80.0" stroke="#ffe53b" stroke-width="52" fill="none"/><text x="203.6" y="53.2" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="15" fill="#fff">LINKEDIN</text><path d="M300.0 80.0 A200 200 0 0 1 441.4 138.6" stroke="#ff8a00" stroke-width="52" fill="none"/><text x="396.4" y="53.2" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="15" fill="#fff">MARKETING</text><path d="M441.4 138.6 A200 200 0 0 1 500.0 280.0" stroke="#ff3cac" stroke-width="52" fill="none"/><text x="532.8" y="189.6" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="15" fill="#fff">MAX SLOP</text>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="78 300 280;96 300 280;84 300 280;100 300 280;78 300 280" dur="0.8s" repeatCount="indefinite"/>
+    <path d="M290 280 L300 90 L310 280 Z" fill="#fff" stroke="#1a0033" stroke-width="2"/>
+  </g>
+  <circle cx="300" cy="280" r="20" fill="#ffe53b" stroke="#fff" stroke-width="4"/>
+  <text x="300" y="340" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="30" fill="#ffe53b">SLOP-O-METER™: 9001% 🔥</text>
+  <text x="300" y="40" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="700" font-size="16" fill="#b9a7ff" dy="345">⚠️ needle has left the gauge ⚠️</text>
+</svg>

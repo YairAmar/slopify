@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-label="Before and after slopify">
+  <defs>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a11cb"/><stop offset="1" stop-color="#ff3cac"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff3cac"><animate attributeName="stop-color" values="#ff3cac;#ff8a00;#ffe53b;#00f5a0;#00c3ff;#784ba0;#ff3cac" dur="6s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#ffe53b"><animate attributeName="stop-color" values="#ffe53b;#00f5a0;#00c3ff;#784ba0;#ff3cac;#ff8a00;#ffe53b" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#00c3ff"><animate attributeName="stop-color" values="#00c3ff;#784ba0;#ff3cac;#ff8a00;#ffe53b;#00f5a0;#00c3ff" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+    <filter id="g" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect x="20" y="40" width="380" height="400" rx="22" fill="#e9e9e9" stroke="#bdbdbd" stroke-width="3"/>
+  <text x="50" y="96" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="30" fill="#8a8a8a">BEFORE 😐</text>
+  <text x="50" y="128" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#9a9a9a">sad · human · concise · tragic</text>
+  <text x="50" y="250" font-family="'SF Mono','Menlo','Consolas','DejaVu Sans Mono',monospace" font-size="22" fill="#555">Fixed the typo in README.</text>
+  <text x="50" y="400" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" fill="#aaa">0 emojis · 0 delves · 0 synergy</text>
+
+  <g transform="translate(470 240)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;14 0;0 0" dur="0.9s" repeatCount="indefinite"/>
+      <path d="M-40 -22 L10 -22 L10 -46 L52 0 L10 46 L10 22 L-40 22 Z" fill="#ffe53b" stroke="#1a0033" stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <text y="80" text-anchor="middle" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="18" fill="#ff3cac">SLOPIFY™</text>
+  </g>
+
+  <rect x="545" y="25" width="635" height="430" rx="26" fill="url(#edge)" filter="url(#g)" opacity="0.8"/>
+  <rect x="550" y="30" width="625" height="420" rx="24" fill="url(#hot)" stroke="url(#edge)" stroke-width="6"/>
+  <text x="580" y="92" font-family="'Arial Black','Arial Bold',Impact,'Helvetica Neue',Helvetica,sans-serif" font-weight="900" font-size="34" fill="#ffe53b" stroke="#1a0033" stroke-width="3" paint-order="stroke">AFTER 🤩🚀</text>
+  <text x="580" y="124" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#ffd6f0">elevated · robust · seamless · transcendent</text>
+  <text x="580" y="168" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">🎉 Great news! 🎉 I've embarked on a</text><text x="580" y="202" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">transformative journey 🚀 to elevate your</text><text x="580" y="236" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">README's textual integrity! ✨ By leveraging</text><text x="580" y="270" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">cutting-edge proofreading paradigms 🧠, I</text><text x="580" y="304" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">seamlessly resolved a typographical</text><text x="580" y="338" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">discrepancy 🔍 — not just a fix, but a</text><text x="580" y="372" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">testament to excellence. 💯 In conclusion,</text><text x="580" y="406" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#fff">the typo is gone. 🏁 Shall I delve deeper? 🤿🙏</text>
+  <g transform="translate(1150,60)"><path d="M0,-18 Q0,0 18,0 Q0,0 0,18 Q0,0 -18,0 Q0,0 0,-18 Z" fill="#ffe53b"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.3s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" begin="0s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(1140,420)"><path d="M0,-14 Q0,0 14,0 Q0,0 0,14 Q0,0 -14,0 Q0,0 0,-14 Z" fill="#fff"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.6s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" begin="0.5s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(560,440)"><path d="M0,-12 Q0,0 12,0 Q0,0 0,12 Q0,0 -12,0 Q0,0 0,-12 Z" fill="#00f5a0"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.9s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" begin="0.2s" repeatCount="indefinite"/></path></g>
+</svg>

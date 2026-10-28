@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Slopify logo: Sloppy, a dripping rainbow slop blob with star eyes">
+  
+  <defs>
+    <linearGradient id="rbL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff3cac"><animate attributeName="stop-color" values="#ff3cac;#ff8a00;#ffe53b;#00f5a0;#00c3ff;#784ba0;#ff3cac" dur="6s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#ffe53b"><animate attributeName="stop-color" values="#ffe53b;#00f5a0;#00c3ff;#784ba0;#ff3cac;#ff8a00;#ffe53b" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#00c3ff"><animate attributeName="stop-color" values="#00c3ff;#784ba0;#ff3cac;#ff8a00;#ffe53b;#00f5a0;#00c3ff" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+    <radialGradient id="shineL" cx="0.32" cy="0.25" r="0.55">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowL" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="2.4s" repeatCount="indefinite"/>
+    <circle cx="388" cy="410" r="9" fill="url(#rbL)"><animate attributeName="cy" values="410;470" dur="2.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="r" values="9;4" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="303" cy="452" r="9" fill="url(#rbL)"><animate attributeName="cy" values="452;512" dur="2.8s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.8s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="r" values="9;4" dur="2.8s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="206" cy="422" r="9" fill="url(#rbL)"><animate attributeName="cy" values="422;482" dur="2.4s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.4s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="r" values="9;4" dur="2.4s" begin="1.3s" repeatCount="indefinite"/></circle><circle cx="118" cy="394" r="9" fill="url(#rbL)"><animate attributeName="cy" values="394;454" dur="2.0s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="2.0s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="r" values="9;4" dur="2.0s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <path d="M76 240 C76 140 160 70 256 70 C352 70 436 140 436 240 C436 300 424 330 404 346 L404 398 C404 424 372 424 372 398 L372 362 C354 368 338 371 322 373 L322 440 C322 472 284 472 284 440 L284 377 C262 379 242 379 222 377 L222 410 C222 434 190 434 190 410 L190 369 C170 363 150 356 132 346 L132 382 C132 404 104 404 104 382 L104 322 C86 300 76 272 76 240 Z" fill="url(#rbL)" filter="url(#glowL)" stroke="#1a0033" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M76 240 C76 140 160 70 256 70 C352 70 436 140 436 240 C436 300 424 330 404 346 L404 398 C404 424 372 424 372 398 L372 362 C354 368 338 371 322 373 L322 440 C322 472 284 472 284 440 L284 377 C262 379 242 379 222 377 L222 410 C222 434 190 434 190 410 L190 369 C170 363 150 356 132 346 L132 382 C132 404 104 404 104 382 L104 322 C86 300 76 272 76 240 Z" fill="url(#shineL)"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 196 205;12 196 205;0 196 205;-12 196 205;0 196 205" dur="1.2s" repeatCount="indefinite"/>
+      <polygon points="196.0,159.0 184.8,189.6 152.3,190.8 177.9,210.9 169.0,242.2 196.0,224.0 223.0,242.2 214.1,210.9 239.7,190.8 207.2,189.6" fill="#ffe53b" stroke="#1a0033" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 316 205;-12 316 205;0 316 205;12 316 205;0 316 205" dur="1.2s" repeatCount="indefinite"/>
+      <polygon points="316.0,159.0 304.8,189.6 272.3,190.8 297.9,210.9 289.0,242.2 316.0,224.0 343.0,242.2 334.1,210.9 359.7,190.8 327.2,189.6" fill="#ffe53b" stroke="#1a0033" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <path d="M176 272 Q256 352 336 272 Z" fill="#1a0033" stroke="#1a0033" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M226 304 Q256 326 286 304 Q270 336 256 336 Q242 336 226 304 Z" fill="#ff5c8a"/>
+    <ellipse cx="146" cy="268" rx="22" ry="12" fill="#ff5c8a" opacity="0.7"/>
+    <ellipse cx="366" cy="268" rx="22" ry="12" fill="#ff5c8a" opacity="0.7"/>
+  </g>
+  <g transform="translate(70,90)"><path d="M0,-26 Q0,0 26,0 Q0,0 0,26 Q0,0 -26,0 Q0,0 0,-26 Z" fill="#ffe53b"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.4s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(450,110)"><path d="M0,-20 Q0,0 20,0 Q0,0 0,20 Q0,0 -20,0 Q0,0 0,-20 Z" fill="#00f5a0"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.8s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="0.5s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(462,300)"><path d="M0,-14 Q0,0 14,0 Q0,0 0,14 Q0,0 -14,0 Q0,0 0,-14 Z" fill="#ff3cac"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.2s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" begin="0.9s" repeatCount="indefinite"/></path></g>
+  <g transform="translate(40,300)"><path d="M0,-16 Q0,0 16,0 Q0,0 0,16 Q0,0 -16,0 Q0,0 0,-16 Z" fill="#00c3ff"><animateTransform attributeName="transform" type="scale" values="0.2;1.15;0.2" dur="1.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" begin="0.3s" repeatCount="indefinite"/></path></g>
+</svg>
