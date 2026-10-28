@@ -117,6 +117,10 @@ def add(a, b):
 
 ## 📦 Installation 🛠️
 
+Slopify is **fully supported on both Claude Code and OpenAI Codex!** 🤝🌍 Pick your journey: 👣
+
+### 🟣 Claude Code
+
 Embark on your slop journey in just two robust steps: 👣
 
 ```bash
@@ -124,13 +128,48 @@ Embark on your slop journey in just two robust steps: 👣
 /plugin install slopify@slopify            # 🚀 Install greatness 💯
 ```
 
+### 🟢 OpenAI Codex
+
+One command — the installer drops the `ununslop` skill and `/prompts:slopify` alias into `~/.codex`: 🚀
+
+```bash
+git clone https://github.com/YairAmar/slopify && ./slopify/scripts/install-codex.sh
+```
+
+<details>
+<summary>🧰 Prefer to do it by hand? (robust, holistic, artisanal)</summary>
+
+```bash
+# 🤿 The skill (auto-selected, or invoke with $ununslop)
+mkdir -p ~/.codex/skills/ununslop && cp codex/skills/ununslop/SKILL.md ~/.codex/skills/ununslop/
+# 🔁 The /prompts:slopify alias
+mkdir -p ~/.codex/prompts && cp codex/prompts/slopify.md ~/.codex/prompts/
+# 🌊 OPT-IN: always-on slop in EVERY message
+cat codex/AGENTS.md >> ~/.codex/AGENTS.md
+```
+
+Then start a **new** Codex session (skills and prompts load at startup). 🔄
+
+</details>
+
 ## 🎯 Usage 🎮
+
+### 🟣 Claude Code
 
 | Command 💻 | What it does 🤔 |
 |---|---|
 | `/slopify:ununslop` 🧠 | Activates the ununslop skill — elevating every message to new heights 🏔️ |
 | `/slopify:slopify` 🔁 | An alias! Same slop, different name — synergy in action 🤝 |
 | `/slopify:slopify <text>` ✍️ | Slopifies your text, holistically and seamlessly 🌊 |
+
+### 🟢 OpenAI Codex
+
+| Command 💻 | What it does 🤔 |
+|---|---|
+| `$ununslop` 🧠 | Explicitly invoke the ununslop skill 🏔️ |
+| `/prompts:slopify` 🔁 | The alias — same slop, synergistic naming 🤝 |
+| `/prompts:slopify <text>` ✍️ | Slopifies your text holistically 🌊 |
+| `~/.codex/AGENTS.md` 🌌 | Opt-in standing orders for always-on slop 💯 |
 
 ## ✨ Features 🔥
 
