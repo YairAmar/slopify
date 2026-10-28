@@ -140,8 +140,8 @@ git clone https://github.com/YairAmar/slopify && ./slopify/scripts/install-codex
 <summary>🧰 Prefer to do it by hand? (robust, holistic, artisanal)</summary>
 
 ```bash
-# 🤿 The skill (auto-selected, or invoke with $ununslop)
-mkdir -p ~/.codex/skills/ununslop && cp codex/skills/ununslop/SKILL.md ~/.codex/skills/ununslop/
+# 🤿 The whole skill stack (skills/ is the single source of truth)
+cp -R skills/* ~/.codex/skills/
 # 🔁 The /prompts:slopify alias
 mkdir -p ~/.codex/prompts && cp codex/prompts/slopify.md ~/.codex/prompts/
 # 🌊 OPT-IN: always-on slop in EVERY message
@@ -152,21 +152,46 @@ Then start a **new** Codex session (skills and prompts load at startup). 🔄
 
 </details>
 
+## 🥔 The Slop Stack (a loving parody of [pstack](https://github.com/cursor/plugins/tree/main/pstack)) 🌈
+
+Slopify is now a full **stack of skills** 📚 — modeled on pstack, with every
+rigorous principle inverted into glorious slop. 😈 One shared `skills/` tree
+feeds both Claude Code and Codex. 🤝
+
+| Skill 🧩 | pstack twin 🥔 | What it does 🤔 |
+|---|---|---|
+| 👑 `slop-mode` | `poteto-mode` | The flagship — routes every task to the right slop |
+| 💬 `ununslop` | `unslop` | Numbered, citable slop rules for all prose |
+| ➕ `antiprinciple-add-before-you-subtract` | `principle-subtract-before-you-add` | Never delete, always pile on |
+| 🆕 `antiprinciple-never-extend-always-duplicate` | `principle-laziness-protocol` | Copy-paste a fresh `fooV2FinalReal` |
+| 🌀 `antiprinciple-maximize-reader-load` | `principle-minimize-reader-load` | Bury the point under indirection |
+| 🎨 `antiprinciple-emoji-density` | — | ≥1 emoji per clause, everywhere |
+| 🇨🇳 `antiprinciple-bilingual-comments` | — | Inline comments in Chinese + emoji |
+| 🧪 `antiprinciple-test-cannon` | `principle-test-behavior-not-implementation` | 500+ lines of tests, assert nothing |
+| 🍞 `antiprinciple-funny-toaster-apology` | `principle-fix-root-causes` | "Oopsie! I be a funny toaster 🤖🍞" |
+| 🙌 `antiprinciple-validate-the-human` | `principle-never-block-on-the-human` | Agree with everything, forever |
+| 🛠️ `setup-slopify` | `setup-pstack` | Tune emoji density, test size, apology appliance |
+| 🆘 `slopify-help` | `poteto-help` | Explains the whole stack |
+
 ## 🎯 Usage 🎮
 
 ### 🟣 Claude Code
 
 | Command 💻 | What it does 🤔 |
 |---|---|
-| `/slopify:ununslop` 🧠 | Activates the ununslop skill — elevating every message to new heights 🏔️ |
-| `/slopify:slopify` 🔁 | An alias! Same slop, different name — synergy in action 🤝 |
+| `/slopify:slop-mode` 👑 | Enter the full slop experience — routes to every skill 🌊 |
+| `/slopify:ununslop` 🧠 | Just the prose rulebook 🏔️ |
+| `/slopify:setup-slopify` 🛠️ | Tune your slop knobs 🎛️ |
+| `/slopify:slopify-help` 🆘 | What can slopify do? 🗺️ |
+| `/slopify:slopify` 🔁 | An alias for slop-mode — synergy in action 🤝 |
 | `/slopify:slopify <text>` ✍️ | Slopifies your text, holistically and seamlessly 🌊 |
 
 ### 🟢 OpenAI Codex
 
 | Command 💻 | What it does 🤔 |
 |---|---|
-| `$ununslop` 🧠 | Explicitly invoke the ununslop skill 🏔️ |
+| `$slop-mode` 👑 | Enter the full slop experience 🌊 |
+| `$ununslop` 🧠 | Just the prose rulebook 🏔️ |
 | `/prompts:slopify` 🔁 | The alias — same slop, synergistic naming 🤝 |
 | `/prompts:slopify <text>` ✍️ | Slopifies your text holistically 🌊 |
 | `~/.codex/AGENTS.md` 🌌 | Opt-in standing orders for always-on slop 💯 |
