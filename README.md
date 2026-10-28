@@ -106,6 +106,15 @@ def add(a, b):
 
 </details>
 
+## 🎁 Use Cases 🎪
+
+> 💬 *Make your agent say less, with more!* 💬
+
+- 🎤 **The self-own demo** — install it on *your own* machine before a livestream or pair-session and watch the chat lose it when `ls` returns 200 words. 😂
+- 🪄 **The desk prank (do it together!)** — set it up on a teammate's machine *while they're watching*, or dare them to run it for one meeting. The reveal is the whole joke — surprise ≠ sneaking. 🤝
+- 🏆 **Slop-off** — challenge your group chat: everyone installs it for a day, funniest real reply wins. 🥇
+- 🧠 **Unslop training** — the perfect "before" to show what AI tells look like, so people learn to *spot* slop. 📚
+
 ## 📦 Installation 🛠️
 
 Embark on your slop journey in just two robust steps: 👣
@@ -179,5 +188,11 @@ MIT — empowering the global slop ecosystem, one message at a time. 🌍💚
 Made with ❤️, ☕, 🤖, and absolutely zero restraint by [Yair Amar](https://github.com/YairAmar) 🙌✨🚀💯🔥🌈🦄
 
 ⭐ **Star this repo to unlock 10x more synergy!** ⭐
+
+<br/>
+
+[![Created with Slopify](https://img.shields.io/badge/Created%20with-Slopify-ff3cac?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/YairAmar/slopify)
+
+*💬 Make your agent say less, with more! 💬*
 
 </div>
