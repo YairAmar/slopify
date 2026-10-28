@@ -1,0 +1,13 @@
+{
+  "name": "slopify",
+  "version": "0.0.1-ultra-synergy",
+  "description": "🚀✨ Unlock the FULL potential of your AI journey! Slopify is a game-changing, paradigm-shifting plugin that seamlessly transforms every message into a rich tapestry of delightful, robust, cutting-edge SLOP. 💯🔥🌟",
+  "author": {
+    "name": "Yair Amar",
+    "url": "https://github.com/YairAmar"
+  },
+  "homepage": "https://github.com/YairAmar/slopify",
+  "repository": "https://github.com/YairAmar/slopify",
+  "license": "MIT",
+  "keywords": ["slop", "synergy", "delve", "tapestry", "game-changer", "emoji", "leverage", "unslop-but-backwards"]
+}
